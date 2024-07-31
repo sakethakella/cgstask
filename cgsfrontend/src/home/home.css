@@ -1,0 +1,67 @@
+.home{
+    background: url('https://t4.ftcdn.net/jpg/04/68/31/61/360_F_468316190_CjhrB55W6Nkosin4F1Cn3GOLGVdc5Un1.jpg');
+    background-repeat: none;
+    background-position: center;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeel{
+    color:white;
+    width:60vw;
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.homee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeel1{
+    color:rgb(237, 8, 141);
+}
+.item{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:2vw;
+    margin:1vw;
+}
+.itemel{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgb(238, 4, 187);
+    text-align: center;
+    width:25vw;
+    height: 49vh;
+    background-color: black;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    border-radius: 1rem;
+}
+.img_2{
+    width:25vw;
+    height:30vh;
+    border-radius: 1rem;
+}
+.itemel:hover{
+    color:rgb(241, 19, 152);
+    box-shadow: 0.1rem 0.1rem yellow;
+}
+.but_2{
+  width:20vw;
+  background-color: rgb(241, 19, 152);
+  color:white;
+  font-size: 1.5rem;
+  padding:0.5rem;
+  border-radius: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.but_2:hover{
+    background-color: blueviolet;
+}
